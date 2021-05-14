@@ -27,7 +27,7 @@ public class HomePgetest extends BasePage {
 	}
 
 	@Test
-	public void Tchome() {
+	public void Tchome() throws InterruptedException {
 		
 		
 	//Constructor to initiate the driver	
@@ -42,6 +42,7 @@ public class HomePgetest extends BasePage {
 	driver.manage().window().maximize();
 	driver.get("https://aaiclas-ecom.org");	
 	HomePage Hp = PageFactory.initElements(driver, HomePage.class);
+	Thread.sleep(3000);
 	Hp.ClickNewUser();
 	Hp.ClickIAgreeBtn();
 	driver.close();
