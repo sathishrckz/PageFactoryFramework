@@ -4,8 +4,10 @@ package TC01HomePgetest;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -42,6 +44,10 @@ public class HomePgetest extends BasePage {
 	driver.manage().window().maximize();
 	driver.get("https://aaiclas-ecom.org");	
 	HomePage Hp = PageFactory.initElements(driver, HomePage.class);
+	Thread.sleep(3000);
+	Actions action = new Actions(driver);
+	Thread.sleep(3000);
+	action.sendKeys(Keys.ESCAPE).build().perform();
 	Thread.sleep(3000);
 	Hp.ClickNewUser();
 	Hp.ClickIAgreeBtn();
