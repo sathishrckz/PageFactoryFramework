@@ -11,9 +11,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.19.1</version>
         <configuration>
-          <systemPropertyVariables>
-            <propertyName>firefox</propertyName>
-          </systemPropertyVariables>
+         <suiteXmlFiles>
+            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
         </configuration>
       </plugin>
   
@@ -31,7 +31,7 @@
     <version>7.3.0</version>
     <scope>test</scope>
 </dependency>
-
   </dependencies>
+  
 
 </project>
