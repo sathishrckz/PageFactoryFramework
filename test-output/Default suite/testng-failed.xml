@@ -5,7 +5,7 @@
     <classes>
       <class name="TC01HomePgetest.HomePgetest">
         <methods>
-          <include name="clickNewUserRegistration"/>
+          <include name="Tchome"/>
         </methods>
       </class> <!-- TC01HomePgetest.HomePgetest -->
     </classes>

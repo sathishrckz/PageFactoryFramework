@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12067" started-at="2021-01-26T10:30:52Z" finished-at="2021-01-26T10:31:04Z">
+  <suite name="Suite" duration-ms="17949" started-at="2021-05-16T10:04:52Z" finished-at="2021-05-16T10:05:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12067" started-at="2021-01-26T10:30:52Z" finished-at="2021-01-26T10:31:04Z">
+    <test name="Test" duration-ms="17949" started-at="2021-05-16T10:04:52Z" finished-at="2021-05-16T10:05:10Z">
       <class name="TC01HomePgetest.HomePgetest">
-        <test-method status="PASS" signature="Tchome()[pri:0, instance:TC01HomePgetest.HomePgetest@6767c1fc]" name="Tchome" duration-ms="12040" started-at="2021-01-26T16:00:52Z" finished-at="2021-01-26T16:01:04Z">
+        <test-method status="PASS" signature="Tchome()[pri:0, instance:TC01HomePgetest.HomePgetest@6767c1fc]" name="Tchome" duration-ms="17914" started-at="2021-05-16T15:34:52Z" finished-at="2021-05-16T15:35:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tchome -->
